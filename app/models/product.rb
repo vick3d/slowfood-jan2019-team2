@@ -1,3 +1,3 @@
 class Product < ApplicationRecord
-    validates_presence_of :product_name, :price, :description
+    validates_presence_of :name, :price, :description
 end
