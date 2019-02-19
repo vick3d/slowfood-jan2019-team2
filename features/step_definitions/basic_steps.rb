@@ -7,7 +7,7 @@
   When("I am on the {string} page") do |page|
     case page
     when "product" 
-      visit product_index_path
+      visit products_path
     else 
       return false 
     end
