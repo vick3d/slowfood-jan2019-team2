@@ -5,10 +5,10 @@ Feature: Visitor can see a list of products
 
     Background: 
         Given the following products exists
-        | product_name  |  price  |  description |
-        | Pizza         |   10    |  spicy       |
-        | Garlic bread  |   3     | stinky       |  
-        | Chocolate     |   5     | fattening    |
+            | product_name  |  price  |  description |
+            | Pizza         |   10    |  spicy       |
+            | Garlic bread  |   3     | stinky       |  
+            | Chocolate     |   5     | fattening    |
 
 
     Scenario: A visitor can see a list of products to choose from
@@ -22,5 +22,3 @@ Feature: Visitor can see a list of products
         And I should see "stinky"
         And I should see "5 SEK"
         And I should see "fattening"
-         
-
