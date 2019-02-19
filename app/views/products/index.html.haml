@@ -1,7 +1,8 @@
 %h1 Peanuts
 
 %ul#products
-    - @products.each do |product| 
-        %li= product.name
-        %li= "#{product.price} SEK"
-        %li= product.description
+    - @products.each do |product|
+        .div{id: dom_id(product)} 
+            %li= product.name
+            %li= "#{product.price} SEK"
+            %li= product.description
