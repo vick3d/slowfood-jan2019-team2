@@ -1,8 +1,7 @@
 %h1 Peanuts
 
-<header>
+%header
 = link_to "Sign up", new_user_registration_path 
-</header>
 
 %ul#products
     - @products.each do |product|

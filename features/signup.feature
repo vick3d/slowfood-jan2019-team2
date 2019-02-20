@@ -17,8 +17,8 @@ Scenario: User can successfully sign up [Happy Path]
 Scenario: User visits page and enters incorrect Password Confirmation [SadPath]
     When I click on "Sign up" 
     And I fill in "Email" with "laura@gmail.com"
-    And I fill in "Password" with "0443431157"
-    And I fill in "Password confirmation" with "044343115"
+    And I fill in "Password" with "0567"
+    And I fill in "Password confirmation" with "0532"
     And I click on "Sign up"
     Then I should see "Password confirmation doesn't match Password"
     
