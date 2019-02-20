@@ -4,7 +4,7 @@ Feature: User can register an account
     I would like to be able to register an account
 
 Background:
-    Given I visit the landing page
+    Given I am on the "product" page
 
 Scenario: User can successfully sign up [Happy Path]
     When I click on "Sign up" 

@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   devise_for :users
-  get "welcome/index"
-  root "welcome#index"
+  root controller: :products, action: :index
+  resources :products, only: [:index]
 end
