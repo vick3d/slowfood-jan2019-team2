@@ -4,11 +4,17 @@ Feature: Visitor can see a list of products
     I would like to be able to see a menu
 
     Background: 
+        Given the following categories exist
+        |category|
+        |main|
+        |starter|
+        |dessert |
+        
         Given the following products exists
-            |   name        |  price  |  description |
-            | Pizza         |   10    |  spicy       |
-            | Garlic bread  |   3     | stinky       |  
-            | Chocolate     |   5     | fattening    |
+            |   name        |  price  |  description | category |
+            | Pizza         |   10    |  spicy       |  main | 
+            | Garlic bread  |   3     | stinky       |  starter |
+            | Chocolate     |   5     | fattening    | dessert |
 
 
     Scenario: A visitor can see a list of products to choose from
