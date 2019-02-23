@@ -3,18 +3,18 @@ Feature: Visitor can see a list of categories with products
     In order to get an easy overview of the restaurants products
     I would like to be able to see a menu sorted in categories
 
-    Background: 
+    Background:
         Given the following categories exist
-        |category|
-        |main    |
-        |starter |
-        |dessert |
-        
+            | category |
+            | main     |
+            | starter  |
+            | dessert  |
+
         Given the following products exists
-            |   name        |  price  |  description | category |
-            | Pizza         |   10    |  spicy       |  main    | 
-            | Garlic bread  |   3     | stinky       |  starter |
-            | Chocolate     |   5     | fattening    | dessert  |
+            | name         | price | description | category |
+            | Pizza        | 10    | spicy       | main     |
+            | Garlic bread | 3     | stinky      | starter  |
+            | Chocolate    | 5     | fattening   | dessert  |
 
 
     Scenario: A visitor can see a list of products to choose from
