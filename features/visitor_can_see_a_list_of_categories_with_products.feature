@@ -10,7 +10,7 @@ Feature: Visitor can see a list of categories with products
             | starter  |
             | dessert  |
 
-        Given the following products exists
+        And the following products exists
             | name         | price | description | category |
             | Pizza        | 10    | spicy       | main     |
             | Garlic bread | 3     | stinky      | starter  |

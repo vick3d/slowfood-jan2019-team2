@@ -10,3 +10,6 @@ products = Product.create(name: 'tagliere', price: 100, description: 'good!', ca
 
 categories2 = Category.create(category: 'main dishes')
 products2 = Product.create(name: 'Pizza', price: 180, description: 'great!', category_id: 2)
+
+categories3 = Category.create(category: 'desserts')
+products3 = Product.create(name: 'Tiramisu', price: 75, description: 'so-so!', category_id: 3)
