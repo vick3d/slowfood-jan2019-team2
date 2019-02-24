@@ -12,6 +12,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'turbolinks', '~> 5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise'
+gem 'webpacker', '~> 3.0'
 
 group :development, :test do
   gem 'pry-byebug'

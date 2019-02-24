@@ -1,0 +1,28 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbar {
+    @apply flex items-center justify-between flex-wrap bg-blue-darkest p-6 text-white;
+},
+
+#login {
+    @apply font-bold text-white;
+},
+
+#signup {
+    @apply font-bold text-white;
+},
+
+a {
+    @apply text-white no-underline;
+}
+
+a:hover {
+    @apply text-blue-dark;
+}
+
+/* .signup :hover {
+    border-transparent text-teal bg-white
+}  */
